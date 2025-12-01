@@ -38,7 +38,7 @@ const Navbar = () => {
         ) : (
           <>
             <Link to="/login">Login</Link> |{" "}
-            <Link to="/register">Register</Link>
+            <Link to="/Register">Register</Link>
           </>
         )}
       </span>
@@ -54,7 +54,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<JobList />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/Register" element={<Register />} />
           <Route path="/jobs/:id" element={<JobDetails />} />
           <Route path="/" element={<JobList />} />
 
