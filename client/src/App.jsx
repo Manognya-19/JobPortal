@@ -5,7 +5,7 @@ import { AuthProvider, useAuth } from "./AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import JobList from "./pages/jobList";
 import Login from "./pages/login";
-import Register from "./pages/Register";
+import Register from "./pages/register";
 import JobDetails from "./pages/jobDetails";
 import PostJob from "./pages/post-job";
 import AdminDashboard from "./pages/adminDashboard";
@@ -38,7 +38,7 @@ const Navbar = () => {
         ) : (
           <>
             <Link to="/login">Login</Link> |{" "}
-            <Link to="/Register">Register</Link>
+            <Link to="/register">Register</Link>
           </>
         )}
       </span>
@@ -54,7 +54,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<JobList />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/Register" element={<Register />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/jobs/:id" element={<JobDetails />} />
           <Route path="/" element={<JobList />} />
 
