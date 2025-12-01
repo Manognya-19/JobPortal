@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { AuthProvider, useAuth } from "./AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import JobList from "./pages/jobList";
-import Login from "./pages/Login";
+import Login from "./pages/login";
 import Register from "./pages/Register";
-import JobDetails from "./pages/JobDetails";
+import JobDetails from "./pages/jobDetails";
 import PostJob from "./pages/post-job";
 import AdminDashboard from "./pages/adminDashboard";
 
