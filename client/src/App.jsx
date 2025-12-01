@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { AuthProvider, useAuth } from "./AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
-import JobList from "./pages/JobList";
+import JobList from "./pages/jobList";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import JobDetails from "./pages/JobDetails";
