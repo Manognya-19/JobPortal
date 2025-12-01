@@ -1,0 +1,103 @@
+/* ---------- Job details page ---------- */
+.details-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+.details-card {
+  width: 100%;
+  max-width: 720px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  padding: 24px 24px 28px;
+}
+
+.details-title {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.details-company {
+  margin: 0 0 16px;
+  font-size: 15px;
+  color: #4b5563;
+}
+
+.details-location {
+  color: #6366f1;
+  font-weight: 600;
+}
+
+.details-dot {
+  margin: 0 4px;
+  color: #9ca3af;
+}
+
+.details-description {
+  margin: 0 0 14px;
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.details-skills {
+  margin: 0 0 20px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.details-skills-label {
+  font-weight: 600;
+}
+
+/* Apply section */
+.apply-card {
+  border-top: 1px solid #e5e7eb;
+  margin-top: 18px;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.apply-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.apply-subtitle {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.file-input {
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.apply-btn {
+  align-self: flex-start;
+  margin-top: 4px;
+}
+
+/* ---------- Post job / status messages ---------- */
+.job-form-card {
+  max-width: 520px;
+}
+
+.auth-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* stat*
